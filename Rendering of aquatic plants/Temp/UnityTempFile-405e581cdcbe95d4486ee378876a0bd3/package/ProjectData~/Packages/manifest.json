@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "7.3.1"
+  }
+}
