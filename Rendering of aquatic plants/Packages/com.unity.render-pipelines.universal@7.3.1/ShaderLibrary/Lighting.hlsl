@@ -665,7 +665,7 @@ half3 LightingPhysicallyBased(BRDFData brdfData, Light light, half3 normalWS, ha
 
 //水生植物BTDF部分
 half3 DirectBTDFForAquatic(BRDFDataForAquatic brdfData, half3 normalWS, half3 lightDirectionWS, half3 viewDirectionWS) {
-	return brdfData.diffuse*exp(-brdfData.thickness);
+	return brdfData.diffuse*(exp(-brdfData.thickness*(brdfData.scattering+brdfData.absorption))+ brdfData.scattering/(2*(brdfData.scattering + brdfData.absorption)))/3.14;
 }
 
 

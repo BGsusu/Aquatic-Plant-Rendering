@@ -62,7 +62,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Underwater life deluxe\Scripts\GhostFreeRoamCamera\Scripts\GhostFreeRoamCamera.cs" />
+    <Compile Include="Assets\FreeCamera.cs" />
+    <Compile Include="Assets\UnderWaterPrefabs\Underwater life deluxe\Scripts\GhostFreeRoamCamera\Scripts\GhostFreeRoamCamera.cs" />
+    <Compile Include="Assets\VolumeLightAssets\VolumetricLight\Scripts\VolumetricLight.cs" />
+    <Compile Include="Assets\VolumeLightAssets\VolumetricLight\Scripts\VolumetricLightRenderer.cs" />
+    <None Include="Assets\VolumeLightAssets\VolumetricLight\Shaders\HeightFogShader.shader" />
+    <None Include="Assets\VolumeLightAssets\VolumetricLight\Shaders\BilateralBlur.shader" />
+    <None Include="Assets\VolumeLightAssets\VolumetricLight\Shaders\MyVlight.shader" />
+    <None Include="Assets\VolumeLightAssets\VolumetricLight\Shaders\BlitAdd.shader" />
+    <None Include="Assets\VolumeLightAssets\VolumetricLight\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\VolumeLightAssets\VolumetricLight\Shaders\VolumetricShadowLibrary.cginc" />
+    <None Include="Assets\VolumeLightAssets\VolumetricLight\Shaders\Depth.shader" />
+    <None Include="Assets\VolumeLightAssets\VolumetricLight\Shaders\VolumetricLight.shader" />
     <Reference Include="UnityEngine">
       <HintPath>E:/unity/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -601,46 +612,46 @@
       <HintPath>E:/unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

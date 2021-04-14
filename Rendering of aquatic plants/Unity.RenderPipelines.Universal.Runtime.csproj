@@ -346,7 +346,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -703,13 +703,13 @@
       <HintPath>E:/unity/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/毕业设计/project/Rendering of aquatic plants/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/毕业设计/project/RenderingOfAquaticPlant/Rendering of aquatic plants/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
